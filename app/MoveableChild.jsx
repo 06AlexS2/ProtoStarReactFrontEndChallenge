@@ -2,9 +2,9 @@
 import Moveable from "react-moveable";
 import Image from "next/image";
 
-/** we basically use the Moveable module, and define the ref to the image with the target parameter as a className.
-   * then, we configure the draggable, rotable, resizable features as true,
-   * and based on the previously defined individual functions, we do those actions to the image
+/** I basically use the Moveable module, and define the ref to the image with the target parameter as a className.
+   * then, I configure the draggable, rotable, resizable features as true,
+   * and based on the previously defined individual functions, it does those actions to the image
    * as from the Moveable component, the parameters are target, which is the object in the DOM,
    * draggable, rotatable and resizable, which are the functions we want as true,
    * keep ratio as false, startDragRotate as 0 (start angle(degree) of x,y for throttleDragRotate when drag),
